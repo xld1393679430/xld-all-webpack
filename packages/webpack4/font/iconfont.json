@@ -1,0 +1,23 @@
+{
+  "id": "3382427",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "29427500",
+      "name": "飞机场",
+      "font_class": "feijichang",
+      "unicode": "e9e4",
+      "unicode_decimal": 59876
+    },
+    {
+      "icon_id": "29427508",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e9e5",
+      "unicode_decimal": 59877
+    }
+  ]
+}

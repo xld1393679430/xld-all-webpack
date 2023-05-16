@@ -1,0 +1,22 @@
+@import url('../../font/iconfont.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(100px, 100px);
+}
+
+.odd {
+    background-color: red;
+}
+
+.even {
+    background-color: yellow;
+}

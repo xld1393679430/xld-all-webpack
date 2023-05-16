@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage" // 减少引入@babel/polyfill的打包后的文件体积
+      }
+    ],
+    "@babel/preset-react" // 解析react语法
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 2,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+      }
+    ],
+    // "dynamic-import-webpack", // 不支持webpackChunkName 使用官方的插件  @babel/plugin-syntax-dynamic-import
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}
